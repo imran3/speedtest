@@ -1,0 +1,29 @@
+{
+  "name": "speedtest",
+  "author": "Imran Azam",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "A service that calculates user's internet download speed.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start-dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imran3/speedtest.git"
+  },
+  "homepage": "https://github.com/imran3/speedtest#readme",
+  "keywords": [
+    "speedtest",
+    "nodejs",
+    "expressjs",
+    "mocha"
+  ]
+}
