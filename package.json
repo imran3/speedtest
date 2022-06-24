@@ -4,16 +4,21 @@
   "license": "MIT",
   "version": "0.0.1",
   "description": "A service that calculates user's internet download speed.",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
-    "start-dev": "nodemon src/app.js"
+    "start-dev": "nodemon src/app.js",
+    "test": "mocha --reporter spec",
+    "test-watch": "mocha --reporter spec --watch --watch-files test/*.spec.js"
   },
   "dependencies": {
     "express": "^4.18.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.18"
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.18",
+    "request": "^2.88.2"
   },
   "repository": {
     "type": "git",
